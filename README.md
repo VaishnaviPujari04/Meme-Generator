@@ -1,4 +1,4 @@
-# 📸 Meme Generator 🎨🖌️
+# 📸 Meme Generator 
 
 A **React-based Meme Generator** app that lets users upload images or videos, add custom text overlays, draw directly on memes, and erase drawings — all with an intuitive, clean interface.
 
