@@ -1,12 +1,44 @@
-# React + Vite
+# 📸 Meme Generator 🎨🖌️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React-based Meme Generator** app that lets users upload images or videos, add custom text overlays, draw directly on memes, and erase drawings — all with an intuitive, clean interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ Upload images or videos as meme templates
+- ✅ Browse and select from **popular memes via Imgflip API**
+- ✅ Add, drag, resize, and color **custom text boxes**
+- ✅ **Freehand drawing mode** directly on memes
+- ✅ **Erase drawings** selectively with an eraser tool
+- ✅ Rotate meme templates by 90° increments
+- ✅ Download memes in **PNG**, **JPG**, **GIF**, or **MP3** format
+- ✅ Reset canvas and start fresh anytime
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+- ⚛️ **React.js**
+- 🎨 **Tailwind CSS** (for styling)
+- 📦 **lucide-react** (for icons)
+- 📸 **html2canvas** (for capturing memes to image files)
+- 🖱️ **react-rnd** (for draggable, resizable text boxes)
+- 🌐 **Imgflip API** (for meme templates)
+
+---
+
+## 📸 Screenshots
+
+> _Add screenshots or GIF previews of your app’s interface and features here._
+
+---
+
+## 🚀 Installation & Setup
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yourusername/meme-generator.git
+   cd meme-generator
+   ```
